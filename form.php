@@ -25,10 +25,13 @@
             max-width: 800px;
             width: 100%;
             overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
         }
         
         .header {
-            color: white;
+            color: #000000;
             padding: 32px;
             text-align: center;
         }
