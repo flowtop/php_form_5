@@ -55,21 +55,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Вход для изменения данных</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
         .login-box {
             max-width: 400px;
             width: 100%;
             background: white;
-            border-radius: 24px;
+            border-radius: 8px;
             padding: 32px;
             box-shadow: 0 25px 50px -12px rgba(0,0,0,0.35);
             text-align: center;
@@ -86,7 +78,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         button {
             width: 100%;
             padding: 14px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             border: none;
             border-radius: 40px;
@@ -96,21 +87,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             margin-top: 10px;
         }
         .error { color: #dc2626; margin-bottom: 15px; padding: 10px; background: #fee2e2; border-radius: 12px; }
-        a { display: block; margin-top: 20px; color: #667eea; }
     </style>
 </head>
 <body>
 <div class="login-box">
-    <h1>🔐 Вход</h1>
+    <h1>Вход</h1>
     <?php if ($error_message): ?>
-        <div class="error">❌ <?= htmlspecialchars($error_message) ?></div>
+        <div class="error"><?= htmlspecialchars($error_message) ?></div>
     <?php endif; ?>
     <form method="POST">
         <input type="text" name="login" placeholder="Логин" required>
         <input type="password" name="pass" placeholder="Пароль" required>
         <button type="submit">Войти</button>
     </form>
-    <a href="index.php">← Вернуться к анкете</a>
+    <a href="index.php">Вернуться к анкете</a>
 </div>
 </body>
 </html>

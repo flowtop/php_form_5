@@ -119,13 +119,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         setcookie('save', '', 100000);
         setcookie('login_temp', '', 100000);
         setcookie('pass_temp', '', 100000);
-        $messages[] = '<div class="success-message">✅ Данные успешно сохранены!</div>';
+        $messages[] = '<div class="success-message">Данные успешно сохранены!</div>';
         
         if (!empty($_COOKIE['login_temp']) && !empty($_COOKIE['pass_temp'])) {
             $messages[] = sprintf(
                 '<div class="info-message">🔐 Ваши данные для входа:<br>
-                📌 Логин: <strong>%s</strong><br>
-                🔑 Пароль: <strong>%s</strong><br>
+                Логин: <strong>%s</strong><br>
+                Пароль: <strong>%s</strong><br>
                 <a href="login.php">Нажмите здесь</a> чтобы войти и изменить данные.</div>',
                 htmlspecialchars($_COOKIE['login_temp']),
                 htmlspecialchars($_COOKIE['pass_temp'])
