@@ -286,3 +286,53 @@ button {
         gap: 12px;
     }
 }
+
+.login-box {
+    max-width: 500px;
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    padding: 32px;
+    text-align: center;
+}
+
+.login-box h1 {
+    margin-bottom: 1.4rem;
+    color: #000000;
+}
+
+.login-box input {
+    padding: 1rem;
+    border-radius: 0.8rem;
+    border: none;
+    border: 1px solid #ebebeb;
+    outline: none;
+    resize: vertical;
+    max-height: 200px;
+    width: 100%;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 14px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #1475e4;
+}
+
+.error {
+    color: #dc2626;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #fee2e2;
+    border-radius: 4px;
+}
+
+.login-box a {
+    color: #1475e4;
+}
