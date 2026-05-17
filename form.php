@@ -117,11 +117,11 @@
                     </div>
                 </div>
 
-                <button type="submit">Отправить</button>
+                <button class="send_form_btn" type="submit">Отправить</button>
             </form>
 
             <?php if (!empty($_SESSION['login'])): ?>
-            <div style="text-align: center; margin-top: 20px;">
+            <div class="logout-message">
                 <a href="?logout=1" class="logout-btn" onclick="return confirm('Выйти из аккаунта?')">🚪 Выйти</a>
             </div>
             <?php endif; ?>
