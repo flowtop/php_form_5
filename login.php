@@ -10,9 +10,9 @@ if (!empty($_SESSION['login'])) {
 }
 
 $host = 'localhost';
-$dbname = 'u82564';           
-$username_db = 'u82564';
-$password_db = '1341640';
+$dbname = 'u82813';           
+$username_db = 'u82813';
+$password_db = '4313992';
 
 try {
     $pdo = new PDO(

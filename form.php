@@ -261,7 +261,7 @@
 <body>
 <div class="container">
     <div class="header">
-        <h1>📝 Анкета разработчика</h1>
+        <h1>Анкета разработчика</h1>
         <p>Заполните форму — данные сохранятся, вы получите логин и пароль</p>
     </div>
     
@@ -356,7 +356,7 @@
                 </div>
             </div>
             
-            <button type="submit">💾 Сохранить</button>
+            <button type="submit">Отправить</button>
         </form>
         
         <?php if (!empty($_SESSION['login'])): ?>
