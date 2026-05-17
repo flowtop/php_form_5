@@ -123,10 +123,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         
         if (!empty($_COOKIE['login_temp']) && !empty($_COOKIE['pass_temp'])) {
             $messages[] = sprintf(
-                '<div class="info-message">🔐 Ваши данные для входа:<br>
-                Логин: <strong>%s</strong><br>
-                Пароль: <strong>%s</strong><br>
-                <a href="login.php">Нажмите здесь</a> чтобы войти и изменить данные.</div>',
+                '<div class="login_data">
+                    <h3>Ваши данные для входа:</h3>
+                    <div class="login_data__login">Логин: %s</div>
+                    <div class="login_data__password">Пароль: %s</div>
+                    <a href="login.php">Нажмите здесь</a> чтобы войти и изменить данные.
+                </div>',
                 htmlspecialchars($_COOKIE['login_temp']),
                 htmlspecialchars($_COOKIE['pass_temp'])
             );
