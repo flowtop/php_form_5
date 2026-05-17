@@ -21,15 +21,6 @@
             align-items: center;
         }
         
-        .container {
-            max-width: 800px;
-            width: 100%;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-        
         .header {
             color: #000000;
             padding: 32px;
@@ -65,22 +56,6 @@
         .required::after {
             content: " *";
             color: #ef4444;
-        }
-        
-        input[type="text"],
-        input[type="tel"],
-        input[type="email"],
-        input[type="date"],
-        textarea,
-        select {
-            width: 100%;
-            padding: 12px 16px;
-            border: 2px solid #e5e7eb;
-            border-radius: 12px;
-            font-size: 15px;
-            font-family: inherit;
-            transition: all 0.2s;
-            background: #fefefe;
         }
         
         input.error-input,
