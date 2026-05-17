@@ -24,9 +24,6 @@
         .container {
             max-width: 800px;
             width: 100%;
-            background: white;
-            border-radius: 24px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
             overflow: hidden;
         }
         
@@ -48,10 +45,6 @@
         .header p {
             opacity: 0.9;
             font-size: 14px;
-        }
-        
-        form {
-            padding: 40px;
         }
         
         .form-group {
@@ -191,10 +184,6 @@
             cursor: pointer;
             transition: all 0.2s;
             margin-top: 16px;
-        }
-        
-        button:hover {
-            transform: translateY(-2px);
         }
         
         .error-message {
