@@ -38,7 +38,7 @@
                     <label for="phone" class="required">Телефон</label>
                     <input type="tel" id="phone" name="phone"
                         class="<?= $errors['phone'] ?? false ? 'error-input' : '' ?>"
-                        value="<?= htmlspecialchars($values['phone'] ?? '') ?>" placeholder="+7 (123) 456-78-90">
+                        value="<?= htmlspecialchars($values['phone'] ?? '') ?>" placeholder="+7XXXXXXXXXX">
                     <span class="small-hint">Формат: +7XXXXXXXXXX или 8XXXXXXXXXX (11 цифр)</span>
                 </div>
 
