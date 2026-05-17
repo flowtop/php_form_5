@@ -287,6 +287,17 @@ button {
     }
 }
 
+.login_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_page form {
+    gap: 1rem;
+}
+
 .login-box {
     max-width: 500px;
     width: 100%;
@@ -318,11 +329,11 @@ button {
     color: white;
     border: none;
     border-radius: 8px;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 400;
     cursor: pointer;
     margin-top: 10px;
-    background-color: #1475e4;
+    background-color: #2b70c0;
 }
 
 .error {
@@ -334,5 +345,6 @@ button {
 }
 
 .login-box a {
-    color: #1475e4;
+    margin-top: 1.4rem;
+    color: #2b70c0;
 }

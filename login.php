@@ -52,23 +52,30 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 ?>
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Вход для изменения данных</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="login-box">
-    <h1>Вход</h1>
-    <?php if ($error_message): ?>
-        <div class="error"><?= htmlspecialchars($error_message) ?></div>
-    <?php endif; ?>
-    <form method="POST">
-        <input type="text" name="login" placeholder="Логин" required>
-        <input type="password" name="pass" placeholder="Пароль" required>
-        <button type="submit">Войти</button>
-    </form>
-    <a href="index.php">Вернуться к анкете</a>
-</div>
+    <div class="login_page">
+        <div class="login-box">
+            <h1>Вход</h1>
+            <?php if ($error_message): ?>
+            <div class="error">
+                <?= htmlspecialchars($error_message) ?>
+            </div>
+            <?php endif; ?>
+            <form method="POST">
+                <input type="text" name="login" placeholder="Логин" required>
+                <input type="password" name="pass" placeholder="Пароль" required>
+                <button type="submit">Войти</button>
+            </form>
+            <a href="index.php">Вернуться к анкете</a>
+        </div>
+    </div>
 </body>
+
 </html>
