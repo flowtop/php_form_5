@@ -7,52 +7,6 @@
     <title></title>
     <link rel="stylesheet" href="style.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: "Inter", sans-serif;
-            padding: 40px 20px;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .header {
-            color: #000000;
-            padding: 32px;
-            text-align: center;
-        }
-
-        .header h1 {
-            font-size: 28px;
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .header p {
-            opacity: 0.9;
-            font-size: 14px;
-        }
-
-        .form-group {
-            margin-bottom: 24px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 600;
-            color: #000000;
-            font-size: 14px;
-        }
 
         .required::after {
             content: " *";
@@ -234,7 +188,7 @@
             <h1>Сессия, JWT.</h1>
         </div>
     </div>
-    
+
     <main>
         <div class="main__container container">
             <?php if (!empty($messages)): ?>
