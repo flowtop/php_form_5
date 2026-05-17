@@ -88,14 +88,7 @@ p {
     outline: none;
     max-height: 200px;
     cursor: pointer;
-}
-
-.main__container form button[type=submit]:hover {
-    background-color: #f0f0f0;
-}
-
-.main__container form button[type=submit]:hover {
-    background-color: #e6e6e6;
+    background-color: #2b70c0;
 }
 
 .main__container form .form_checkbox {
@@ -212,19 +205,6 @@ textarea {
     color: #6b7280;
     margin-top: 6px;
     display: block;
-}
-
-.send_form_btn {
-    width: 100%;
-    padding: 14px;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.2rem;
-    font-weight: 400;
-    cursor: pointer;
-    margin-top: 10px;
-    background-color: #2b70c0;
 }
 
 .error-message {
