@@ -13,8 +13,7 @@
         }
         
         body {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: "Inter", sans-serif;
             padding: 40px 20px;
             min-height: 100vh;
             display: flex;
@@ -32,7 +31,6 @@
         }
         
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 32px;
             text-align: center;
@@ -64,7 +62,7 @@
             display: block;
             margin-bottom: 8px;
             font-weight: 600;
-            color: #1f2937;
+            color: #000000;
             font-size: 14px;
         }
         
@@ -100,7 +98,6 @@
         textarea:focus,
         select:focus {
             outline: none;
-            border-color: #667eea;
             box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
         }
         
@@ -130,7 +127,6 @@
             width: 18px;
             height: 18px;
             cursor: pointer;
-            accent-color: #667eea;
         }
         
         select[multiple] {
@@ -144,7 +140,6 @@
         }
         
         select[multiple] option:checked {
-            background: #667eea linear-gradient(0deg, #667eea 0%, #764ba2 100%);
             color: white;
         }
         
@@ -166,7 +161,6 @@
             width: 20px;
             height: 20px;
             cursor: pointer;
-            accent-color: #667eea;
         }
         
         .checkbox-group label {
@@ -189,7 +183,6 @@
         button {
             width: 100%;
             padding: 14px 24px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             border: none;
             border-radius: 40px;
@@ -202,7 +195,6 @@
         
         button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 10px 20px -5px rgba(102, 126, 234, 0.4);
         }
         
         .error-message {
@@ -225,11 +217,10 @@
         
         .info-message {
             background: #dbeafe;
-            color: #1e40af;
+            color: #000000;
             padding: 14px 18px;
             border-radius: 12px;
             margin-bottom: 12px;
-            border-left: 4px solid #3b82f6;
         }
         
         #messages {
