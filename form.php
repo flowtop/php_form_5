@@ -12,7 +12,8 @@
 
     <div class="header">
         <div class="header__container container">
-            <h1>Сессия, JWT.</h1>
+            <h1>Сессия</h1>
+            <a href="login.php">Войти в аккаунт</a>
         </div>
     </div>
 
