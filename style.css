@@ -30,6 +30,11 @@ p {
     margin: 0 auto;
 }
 
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header {
     width: 100%;
     border-bottom: 1px solid #ebebeb;
